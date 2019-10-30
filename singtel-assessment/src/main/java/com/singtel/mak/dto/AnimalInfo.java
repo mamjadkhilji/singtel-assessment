@@ -1,6 +1,6 @@
 package com.singtel.mak.dto;
 
-public class AnimalInfo {
+public class AnimalInfo { 
 	
 	private String animalType;
 	private String animalSong;

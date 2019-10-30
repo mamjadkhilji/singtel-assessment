@@ -22,7 +22,7 @@ import com.singtel.mak.interfaces.impl.Sharks;
 
 @RestController
 @RequestMapping("/singtelassess")
-public class AnimalRestController { 
+public class AnimalRestController {  
 
 	@RequestMapping(path="/animaldetails", produces = {"application/json"})
 	public AnimalInfo getAnimalDetails(@RequestParam(value="animaltype") String animalType) {
